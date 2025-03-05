@@ -139,7 +139,7 @@ class ZoneSchulhof {
         const drawY = canvasCenterY - backgroundAnchor.y + this.position.y;
 
         // Zeichne die Zone
-        ctx.fillStyle = 'rgba(255, 0, 0, 0.5)';
+        ctx.fillStyle = 'rgba(255, 0, 0, 0)';
         ctx.fillRect(drawX, drawY, this.width, this.height);
     }
 }
@@ -172,7 +172,7 @@ class ZoneFlur {
         const drawY = canvasCenterY - backgroundAnchor.y + this.position.y;
 
         // Zeichne die Zone
-        ctx.fillStyle = 'rgba(255, 0, 0, 0.5)';
+        ctx.fillStyle = 'rgba(255, 0, 0, 0)';
         ctx.fillRect(drawX, drawY, this.width, this.height);
     }
 }
@@ -205,7 +205,7 @@ class ZoneRaum {
         const drawY = canvasCenterY - backgroundAnchor.y + this.position.y;
 
         // Zeichne die Zone
-        ctx.fillStyle = 'rgba(255, 0, 0, 0.5)';
+        ctx.fillStyle = 'rgba(255, 0, 0, 0)';
         ctx.fillRect(drawX, drawY, this.width, this.height);
     }
 }
